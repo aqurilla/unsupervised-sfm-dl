@@ -1,5 +1,7 @@
-The training code is run as follows-
+# Unsupervised Approach for Structure from Motion
+CMSC 733 project implementing improvements to SfMLearner
 
-python train.py --dataset_dir=/home/paperspace/Desktop/P4/TrainingAndValData/SfMLearnerData/ --checkpoint_dir=/home/paperspace/Desktop/P4/SfMLearner-master/checkpoints/2/ --img_width=416 --img_height=128 --batch_size=4
+## Instructions
+Run training using:
 
-Changes were made in SfMLearner.py, nets.py and data_loader.py as explained in the report. Filenames were kept the same in order to run with the program.
+python train.py --dataset_dir=[TRAINING DATA DIR] --checkpoint_dir=[CHECKPOINTS DIR] --img_width=416 --img_height=128 --batch_size=4
